@@ -1,0 +1,11 @@
+.ratings {
+    padding: 1rem 0 
+}
+
+button {
+    width: 14rem;
+}
+
+.uparrowalphabet, .uparrowrating, .downarrowalphabet, .downarrowrating {
+    padding: 0 1rem
+}

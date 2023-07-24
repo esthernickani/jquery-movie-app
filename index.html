@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie app</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Movie Rating</h1>
+    <form action="" method="get" id="form">
+        <label for="title">Title: </label>
+        <input type="text" name="title" id="title">
+
+        <label for="rating">Rating: </label>
+        <input type="number" name="rating" id="rating">
+
+        <input type="submit" value="Get rating">
+    </form>
+    <div class="errormessage">
+    </div>
+    <div class="ratings">
+        <button class="alphabet">Sort alphabetically<span class="uparrowalphabet">&#8593;</span><span class="downarrowalphabet">&#8595;</span></button>
+        <button class="rating">Sort by rating<span class="uparrowrating">&#8593;</span><span class="downarrowrating">&#8595;</span></button>
+        <ul>
+
+        </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
